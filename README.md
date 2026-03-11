@@ -113,8 +113,7 @@ dvwa-blind-sql-injection/
 |__init__()	|初始化注入器，设置URL、Cookie和延迟|
 |_parse_cookie()	|将cookie字符串转为字典|
 |send_payload()	|发送payload并判断页面状态（核心方法）|
-|AdvancedBlindInjector |(子类)|
-
+### AdvancedBlindInjector (子类)
 |方法	|说明|
 |:---|:---|
 |get_database_name()	|获取数据库名|

@@ -401,8 +401,8 @@ class AdvancedBlindInjector(DVWABlindSQLInjector):
 def main():
     
     # 配置信息
-    TARGET_URL = "http://10.44.63.72/dvwa/vulnerabilities/sqli_blind/" 
-    COOKIE = "PHPSESSID=357d9f56064cd507824c31e4d68af716; security=low" 
+    TARGET_URL = "http://你的靶场IP/dvwa/vulnerabilities/sqli_blind/" 
+    COOKIE = "PHPSESSID=你的会话ID; security=low" 
     
     print("="*60)
     print("DVWA 布尔盲注自动化利用脚本")
@@ -449,4 +449,5 @@ def main():
     print("\n[✓] 脚本执行完成")
 
 if __name__ == "__main__":
+
     main()

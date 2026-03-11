@@ -102,8 +102,7 @@ dvwa-blind-sql-injection/
 ├── README.md                # 本文档
 ├── requirements.txt         # 依赖列表
 ├── dump_result.txt          # 导出数据（运行后生成）
-└── screenshots/             # 运行截图
-    └── demo.png
+└── demo.png                 # 运行截图
 ```
 
 ## 类与方法说明
